@@ -1,7 +1,6 @@
 package line
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/line/line-bot-sdk-go/v7/linebot"
 	"github.com/spf13/viper"
@@ -27,7 +26,6 @@ func StoreMessage(c *gin.Context) {
 	for _, event := range events {
 		if event.Type == linebot.EventTypeMessage {
 			UserID := event.Source.UserID
-			fmt.Println(UserID)
 			switch message := event.Message.(type) {
 			case *linebot.TextMessage:
 				messageModel := &models.LineMessage{}
