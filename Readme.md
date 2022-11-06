@@ -12,6 +12,7 @@
 + Needs to edit your userid in config/config.yaml
 + Create a line bot account with [line developers](https://developers.line.biz/zh-hant/) 
 + Enabled webhook and add the bot to your line account.
++ needs to edit channel_access_token and channel_secret in config.yaml
 
 # Installation
 
