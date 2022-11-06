@@ -1,0 +1,4 @@
+channel_access_token: "line bot channel_access_token(自己申請)"
+channel_secret: "line bot channel_secret(自己申請)"
+mongo_DSN: "mongodb://root:root@127.0.0.1:27017"
+userid: "自己的userid"
